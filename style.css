@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+.body{
+    height: 100vh;
+    width: 100hw;
+    box-sizing: border-box
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: #707070;
+    color: white;
+}
+
+#header #name{
+    float: left;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 18px;
+}
+
+#header #buttons{
+    float: right;
+    padding-top: 23px;
+    width: 300px;
+    font-size: 17px;
+}
+
+#header ul{
+    display: flex;
+}
+
+#header li{
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+#title{
+    height: 25%;
+    width: 100%;
+    background-color: black;
+}
+
+#title h1{
+    color: #E9E05F;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    font-size: 45px;
+}
+
+#main{
+    background-color: white;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+#main #three-boxes{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#main #three-boxes .box1{
+    height: 160px;
+    width: 160px;
+    background-color: #A4FFD7;
+    border-radius: 8px;
+    margin: 25px 0px;
+}
+
+#main #two-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#main #two-boxes .box2{
+    height: 160px;
+    width: 470px;
+    background-color: #FFC36C;
+}
+
+#bottom-section{
+    height: 30px;
+    width: 75vw;
+    margin: auto;
+    /* border: 2px solid green; */
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+
+#bottom-section #paragraph{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid purple; */
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    
+
+    
+}
+
+#bottom-section #elephant-image{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid orange; */
+    background-image: url("./elephant.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#footer{
+    height: 75px;
+    width: 100%;
+    background-color: #3A3A56;
+    border: 2px solid black;
+}
